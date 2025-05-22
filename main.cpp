@@ -1,11 +1,13 @@
 #include <iostream>
 #include "Snake.h"
+#include "Game.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    Snake snake;
-    std::cout << "La taille du serpent est de " << snake.getLength() << std::endl;
+    Game *game = new Game();
+
+    game->running();
 
     return 0;
 }
