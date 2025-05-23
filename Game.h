@@ -8,7 +8,6 @@
 #include <string.h>
 
 
-
 class Game {
 public:
     Game();

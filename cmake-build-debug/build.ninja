@@ -77,6 +77,20 @@ build CMakeFiles/snake.dir/Apple.cpp.o: CXX_COMPILER__snake_unscanned_Debug /Use
   OBJECT_DIR = CMakeFiles/snake.dir
   OBJECT_FILE_DIR = CMakeFiles/snake.dir
 
+build CMakeFiles/snake.dir/StateMan.cpp.o: CXX_COMPILER__snake_unscanned_Debug /Users/steve/Desktop/2025CESTMONANNEE/snake/StateMan.cpp || cmake_object_order_depends_target_snake
+  DEP_FILE = CMakeFiles/snake.dir/StateMan.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/snake.dir
+  OBJECT_FILE_DIR = CMakeFiles/snake.dir
+
+build CMakeFiles/snake.dir/AssetMan.cpp.o: CXX_COMPILER__snake_unscanned_Debug /Users/steve/Desktop/2025CESTMONANNEE/snake/AssetMan.cpp || cmake_object_order_depends_target_snake
+  DEP_FILE = CMakeFiles/snake.dir/AssetMan.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/snake.dir
+  OBJECT_FILE_DIR = CMakeFiles/snake.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target snake
@@ -85,7 +99,7 @@ build CMakeFiles/snake.dir/Apple.cpp.o: CXX_COMPILER__snake_unscanned_Debug /Use
 #############################################
 # Link the executable snake
 
-build snake: CXX_EXECUTABLE_LINKER__snake_Debug CMakeFiles/snake.dir/main.cpp.o CMakeFiles/snake.dir/Snake.cpp.o CMakeFiles/snake.dir/Game.cpp.o CMakeFiles/snake.dir/Apple.cpp.o | /opt/homebrew/lib/libsfml-graphics.3.0.0.dylib /opt/homebrew/lib/libsfml-window.3.0.0.dylib /opt/homebrew/lib/libsfml-system.3.0.0.dylib
+build snake: CXX_EXECUTABLE_LINKER__snake_Debug CMakeFiles/snake.dir/main.cpp.o CMakeFiles/snake.dir/Snake.cpp.o CMakeFiles/snake.dir/Game.cpp.o CMakeFiles/snake.dir/Apple.cpp.o CMakeFiles/snake.dir/StateMan.cpp.o CMakeFiles/snake.dir/AssetMan.cpp.o | /opt/homebrew/lib/libsfml-graphics.3.0.0.dylib /opt/homebrew/lib/libsfml-window.3.0.0.dylib /opt/homebrew/lib/libsfml-system.3.0.0.dylib
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk
   LINK_LIBRARIES = -Wl,-rpath,/opt/homebrew/lib  /opt/homebrew/lib/libsfml-graphics.3.0.0.dylib  /opt/homebrew/lib/libsfml-window.3.0.0.dylib  /opt/homebrew/lib/libsfml-system.3.0.0.dylib
   OBJECT_DIR = CMakeFiles/snake.dir

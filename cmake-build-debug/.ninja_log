@@ -1,9 +1,10 @@
 # ninja log v6
-16	622	1747786379185204174	CMakeFiles/snake.dir/main.cpp.o	a58a24462f988043
-622	793	1747786379791725505	snake	dbc32fef383ebaf
-17	229	1747786379186683835	CMakeFiles/snake.dir/Snake.cpp.o	cfca79fae841fe
-35	225	1747917395156983527	CMakeFiles/snake.dir/Apple.cpp.o	fdf02af3e5272e5
-35	241	1747917395156722609	CMakeFiles/snake.dir/Snake.cpp.o	cfca79fae841fe
 32	815	1747917395153367764	CMakeFiles/snake.dir/main.cpp.o	a58a24462f988043
-35	825	1747917395156864068	CMakeFiles/snake.dir/Game.cpp.o	aaab35093fc26dc8
 825	958	1747917395946429569	snake	dc6fcf8543da13d6
+35	241	1747917395156722609	CMakeFiles/snake.dir/Snake.cpp.o	cfca79fae841fe
+35	225	1747917395156983527	CMakeFiles/snake.dir/Apple.cpp.o	fdf02af3e5272e5
+35	825	1747917395156864068	CMakeFiles/snake.dir/Game.cpp.o	aaab35093fc26dc8
+31	708	1747991830784394405	CMakeFiles/snake.dir/AssetMan.cpp.o	3296718d3ba1951a
+30	802	1747991830783479660	CMakeFiles/snake.dir/main.cpp.o	a58a24462f988043
+7	694	1747991891785397117	CMakeFiles/snake.dir/StateMan.cpp.o	8430b313b3942067
+695	827	1747991892473712882	snake	59adffd19caf85eb

@@ -11,6 +11,11 @@ add_executable(snake main.cpp
         Game.cpp
         Game.h
         Apple.cpp
-        Apple.h)
+        Apple.h
+        State.h
+        StateMan.cpp
+        StateMan.h
+        AssetMan.cpp
+        AssetMan.h)
 
 target_link_libraries(snake PRIVATE SFML::Window SFML::Graphics SFML::Window)
